@@ -1,0 +1,11 @@
+{
+  "name": "hexlet-my-first-workflow",
+  "version": "1.0.0",
+  "description": "[![hello-world](https://github.com/nityulam/hexlet-my-first-workflow/actions/workflows/greeting.yml/badge.svg)](https://github.com/nityulam/hexlet-my-first-workflow/actions/workflows/greeting.yml)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
