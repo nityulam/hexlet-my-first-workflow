@@ -21,4 +21,4 @@ jobs:
 
       - run: make lint
       - name: Print Hello from Hexlet
-        uses: actions/hexlet-components/hello-from-hexlet-action@release
+        uses: hexlet-components/hello-from-hexlet-action@release
