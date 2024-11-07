@@ -11,18 +11,7 @@ jobs:
     steps: # список шагов, которые надо выполнить
       # экшен — выполняет какую-то задачу
       # checkout — клонирует репозиторий
-      - name: Checkout
-        id: checkout
-        uses: actions/checkout@v4
-      # Устанавливаем Node.js
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
       # run – произвольная bash-команда
       # ls -la выведет содержимое текущего репозитория
       - run: make say-hello
-      #
-      - run: make setup
-      #
-      - run: make test
-      #
-      - name: Print Hello from Hexlet
-        uses: hexlet-components/hello-from-hexlet-action@release
